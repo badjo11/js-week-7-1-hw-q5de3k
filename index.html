@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+
+  <body>
+    <ul id="list"></ul>
+    <!-- <button class="show-modal">SHOW MODAL</button> -->
+    <div class="modal">
+      <div class="my-modal">
+        <button>&#10006;</button>
+        <h6></h6>
+        <p></p>
+      </div>
+    </div>
+    <ul class="pagination">
+      <li class="waves-effect" id="prev-p"><a href="#!">prev page</a></li>
+      <li class="waves-effect active lists" id="first"><a href="#!">1</a></li>
+      <li class="waves-effect lists" id="second"><a href="#!">2</a></li>
+      <li class="waves-effect lists" id="third"><a href="#!">3</a></li>
+      <li class="waves-effect lists" id="fourth"><a href="#!">4</a></li>
+      <li class="waves-effect lists" id="fifth"><a href="#!">5</a></li>
+      <li class="waves-effect" id="next-p"><a href="#!">next page</a></li>
+    </ul>
+
+    <div id="my-div">
+      <h2>task 2</h2>
+      <input type="text" id="city-name" />
+      <button id="show">show</button>
+      <div id="inner-div"></div>
+    </div>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
